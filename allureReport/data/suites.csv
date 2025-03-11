@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 11 10:46:25 UTC 2025","Tue Mar 11 10:46:25 UTC 2025","275","","apitests.ApiGetTest","","apitests.ApiGetTest","testGetUser","testGetUser(int, String, String) [3] 4, Eve, Holt","My beautiful test - {0}"
+"passed","Tue Mar 11 10:46:25 UTC 2025","Tue Mar 11 10:46:26 UTC 2025","285","","apitests.ApiPostTest","","apitests.ApiPostTest","testCreateUser","testCreateUser()","My beautiful test post"
+"passed","Tue Mar 11 10:46:25 UTC 2025","Tue Mar 11 10:46:25 UTC 2025","111","","apitests.ApiGetTest","","apitests.ApiGetTest","testGetUser","testGetUser(int, String, String) [2] 3, Emma, Wong","My beautiful test - {0}"
+"passed","Tue Mar 11 10:46:22 UTC 2025","Tue Mar 11 10:46:25 UTC 2025","2919","","apitests.ApiGetTest","","apitests.ApiGetTest","testGetUser","testGetUser(int, String, String) [1] 2, Janet, Weaver","My beautiful test - {0}"
+"passed","Tue Mar 11 10:46:27 UTC 2025","Tue Mar 11 10:46:42 UTC 2025","14933","","uitests.MenuTest","","uitests.MenuTest","testMenuButtonTexts","testMenuButtonTexts()","Check that menu buttons have correct text"
