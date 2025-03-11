@@ -22,6 +22,7 @@ dependencies {
 
     // UI Testing - Selenide & Selenium
     implementation 'com.codeborne:selenide:6.19.1'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.8.0'
 
 }
 

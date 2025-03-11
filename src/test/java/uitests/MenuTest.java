@@ -5,6 +5,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import core.menu.CookiesDialog;
 import core.menu.MenuPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -26,7 +27,7 @@ public class MenuTest {
 
     @BeforeAll
     static void setupDriver() {
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        WebDriverManager.chromedriver().setup();
         Configuration.browser = "chrome";
         Configuration.headless = false;
         Configuration.timeout = 5000;
