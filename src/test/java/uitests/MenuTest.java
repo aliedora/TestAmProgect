@@ -29,7 +29,7 @@ public class MenuTest {
     static void setupDriver() {
         WebDriverManager.chromedriver().clearDriverCache().setup();
         Configuration.browser = "chrome";
-        Configuration.headless = false;
+        Configuration.headless = true;
         Configuration.browserSize = "1920x1080";
         Configuration.timeout = 5000;
     }
