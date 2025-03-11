@@ -27,9 +27,10 @@ public class MenuTest {
 
     @BeforeAll
     static void setupDriver() {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().clearDriverCache().setup();
         Configuration.browser = "chrome";
         Configuration.headless = false;
+        Configuration.browserSize = "1920x1080";
         Configuration.timeout = 5000;
     }
 
