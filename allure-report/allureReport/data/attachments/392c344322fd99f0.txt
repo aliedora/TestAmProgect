@@ -1,6 +1,0 @@
-{
-    "name": "John Doe",
-    "job": "QA Engineer",
-    "id": "638",
-    "createdAt": "2025-03-11T10:57:21.480Z"
-}
